@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color:  #001f3f;
+    padding: 10px;
+    font-size: 24px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 80px;
+    border-radius: 20px;
+}
+
+header div:first-child {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+header a {
+    color:  #001f3f;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    margin-right: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+
+header a:hover {
+    color:  #C0C0C0;
+}
+
+.akademiki{
+    margin-left: 80px;
+}

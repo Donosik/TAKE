@@ -1,0 +1,74 @@
+/* Ustawienia dla całej strony */
+body {
+    background-color: #001f3f; /* granatowe tło strony */
+    color: #fff;
+    text-align: center;
+    padding-top: 20px; /* odstęp od góry strony */
+}
+
+h1 {
+    margin-top: 0; /* usuń margines na górze nagłówka */
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+/* Ustawienia dla tabeli */
+table {
+    border:1px solid white;
+    border-collapse: collapse; /* połączenie granic komórek */
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto; /* wyśrodkowanie tabeli */
+    background-color: #fff; /* białe tło tabeli */
+    border-radius: 10px; /* zaokrąglone rogi tabeli */
+    overflow: hidden; /* ukrycie granic tabeli */
+}
+
+/* Ustawienia dla nagłówka tabeli */
+thead {
+    background-color: #001f3f; /* granatowe tło nagłówka */
+    color: #fff; /* biały tekst nagłówka */
+}
+
+/* Ustawienia dla komórek w nagłówku tabeli */
+th {
+    padding: 12px 15px; /* wewnętrzny margines komórki */
+    text-align: center;
+}
+
+/* Ustawienia dla komórek w treści tabeli */
+td {
+    color: #001f3f;
+    padding: 10px 15px; /* wewnętrzny margines komórki */
+    text-align: center;
+    border-bottom: 1px solid #ddd; /* granica dolna */
+}
+
+/* Ustawienia dla ostatniej komórki w każdym wierszu */
+td:last-child {
+    border-right: none; /* usuń granicę prawą */
+}
+
+.wpisywarka{
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bolder;
+}
+
+.klikaczka{
+margin-bottom: 20px;
+    border-radius: 5px;
+    background:white;
+    padding: 8px;
+    font-weight: bolder;
+}
+
+.klikaczka:hover{
+    background: #C0C0C0;
+}
